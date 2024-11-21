@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace TCS.UIToolKitUtils {
+namespace TCS.ToolKitStringGenerator {
     internal static class StringAbbreviation {
         static readonly Regex NonAlphaRegex = new("[^a-zA-Z_]");
 

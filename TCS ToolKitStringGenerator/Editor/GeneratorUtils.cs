@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace TCS.UIToolKitUtils {
+namespace TCS.ToolKitStringGenerator {
     internal static class GeneratorUtils {
         const string FILEPATH = "Assets/UI Toolkit/StringLibrary/";
 

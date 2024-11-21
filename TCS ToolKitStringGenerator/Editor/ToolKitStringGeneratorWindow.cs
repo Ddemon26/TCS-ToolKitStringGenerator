@@ -5,10 +5,10 @@ using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
-using static TCS.UIToolKitUtils.ParserUtils;
+using static TCS.ToolKitStringGenerator.ParserUtils;
 using Object = UnityEngine.Object;
 
-namespace TCS.UIToolKitUtils {
+namespace TCS.ToolKitStringGenerator {
     public class ToolKitStringGeneratorWindow : EditorWindow, IDisposable {
         [MenuItem("Tools/Tent City Studio/UIToolKit String Generator")]
         static void OpenWindow() => GetWindow<ToolKitStringGeneratorWindow>().Show();

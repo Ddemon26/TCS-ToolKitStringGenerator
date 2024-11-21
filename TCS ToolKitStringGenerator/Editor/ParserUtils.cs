@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace TCS.UIToolKitUtils {
+namespace TCS.ToolKitStringGenerator {
     internal static class ParserUtils {
         public static TextField CreateTextArea(string textContent)
             => new() { value = textContent, multiline = true, isReadOnly = true };
