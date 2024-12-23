@@ -1,10 +1,11 @@
-﻿using System;
+﻿#if UNITY_EDITOR
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UIElements;   
 using static TCS.ToolKitStringGenerator.ParserUtils;
 using Object = UnityEngine.Object;
 
@@ -272,3 +273,5 @@ namespace TCS.ToolKitStringGenerator {
         }
     }
 }
+
+  #endif
