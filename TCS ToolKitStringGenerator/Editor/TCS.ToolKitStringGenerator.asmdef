@@ -1,3 +1,16 @@
 {
-	"name": "TCS.ToolKitStringGenerator"
+    "name": "TCS.ToolKitStringGenerator",
+    "rootNamespace": "TCS",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
